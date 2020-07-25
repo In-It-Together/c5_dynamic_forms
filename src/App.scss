@@ -1,0 +1,44 @@
+@import "./variables.scss";
+
+.App {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(185, 211, 162);
+}
+
+html {
+  all: unset;
+}
+
+body {
+  all: unset;
+}
+
+#root {
+  height: 100vh;
+  width: 100vw;
+}
+
+h1 {
+  font-family: $ewert;
+  font-size: 4rem;
+  width: 100%;
+  text-align: center;
+  margin: 0px 0px;
+}
+
+h2 {
+  font-family: $ewert;
+  font-size: 3.5rem;
+  width: 100%;
+  text-align: center;
+  margin: 0px 0px;
+}
+
+h3 {
+  font-family: $bungee;
+  font-size: 3rem;
+  width: 100%;
+  text-align: center;
+  margin: 0px 0px;
+}

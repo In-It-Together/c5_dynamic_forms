@@ -1,0 +1,47 @@
+@import "../../variables.scss";
+
+.formContainer {
+  width: 600px;
+  height: 400px;
+  background-color: rgb(65, 37, 12);
+  border-radius: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  .formHeader {
+    color: rgb(216, 206, 196);
+  }
+
+  .nameInputs {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .vocationOptions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    font-family: $bungee;
+    color: white;
+  }
+
+  .startButton {
+    background-color: rgb(140, 110, 66);
+    height: 4rem;
+    width: 400px;
+    font-family: $bungee;
+    color: white;
+    font-size: 2rem;
+    margin-top: 0.5rem;
+  }
+
+  .startButton:hover {
+    background-color: rgb(104, 82, 49);
+  }
+}

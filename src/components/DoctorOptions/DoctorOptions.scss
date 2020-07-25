@@ -1,0 +1,13 @@
+.doctorForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  .doctorFormHeader {
+    font-size: 1.5rem;
+    color: rgb(181, 184, 43);
+    margin-top: 0.5rem;
+  }
+}

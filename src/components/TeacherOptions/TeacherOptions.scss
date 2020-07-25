@@ -1,0 +1,17 @@
+.teacherForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+
+  .teacherFormHeader {
+    font-size: 1.5rem;
+    color: rgb(181, 184, 43);
+    margin-top: 0.5rem;
+  }
+
+  input {
+    width: 60%;
+  }
+}
